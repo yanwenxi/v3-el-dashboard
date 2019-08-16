@@ -15,10 +15,8 @@ if you want a default page or router, you can add it by yourself。i believe you
 
 if you want a completed dashborad, maybe you should see https://github.com/PanJiaChen/vue-element-admin
 
-![](./login.jpg)
-![](./screen.png)
-
 ## 1.1. 初始化
+
 ```
 yarn install
 yarn run serve
@@ -27,18 +25,18 @@ go to http://localhost:8080/#/Home/BasicLayout
 go to http://localhost:8080/#/Home/BasicContainer
 go to http://localhost:8080/#/Home/FormRadio
 ```
+
 ## 1.2. 改进
 
-- 使用vue-cli 3x
-- 使用vuex
+- 使用 vue-cli 3x
+- 使用 vuex
 - 增加多标签页来控制控制路由
-
 
 ## 1.3. 增加多标签页来控制控制路由
 
-1. 使用keep-alive
-2. 使用keep-alive include属性来指明哪些页面需要缓存
-3. navTags由vuex来管理
+1. 使用 keep-alive
+2. 使用 keep-alive include 属性来指明哪些页面需要缓存
+3. navTags 由 vuex 来管理
 
 ```
 <keep-alive :include="navTags">

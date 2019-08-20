@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     getdata() {
-      this.$get("./getTreeJson").then(res => {
+      this.$get("./recursiondata").then(res => {
         this.treeData = res.data;
       });
     },

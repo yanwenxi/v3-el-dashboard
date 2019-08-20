@@ -70,6 +70,15 @@ export default [
           type: 'menu',
           active: false
         }
+      },
+      {
+        name: 'myTree',
+        meta: {
+          index: `/Home/myTree`,
+          title: 'test tree',
+          type: 'menu',
+          active: false
+        }
       }
     ]
   }

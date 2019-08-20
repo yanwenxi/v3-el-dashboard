@@ -1,3 +1,8 @@
+<style lang="less" scoped>
+ul {
+  padding-left: 20px;
+}
+</style>
 <template>
   <div>
     <ul>

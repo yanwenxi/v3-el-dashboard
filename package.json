@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "splitLine": "———后面的是自己添加的,此行当注释用的",
+    "stage": "vue-cli-service build --mode stage"
   },
   "dependencies": {
     "axios": "^0.19.0",

@@ -79,6 +79,15 @@ export default [
           type: 'menu',
           active: false
         }
+      },
+      {
+        name: 'treeTable',
+        meta: {
+          index: `/Home/treeTable`,
+          title: 'test treeTable',
+          type: 'menu',
+          active: false
+        }
       }
     ]
   }
